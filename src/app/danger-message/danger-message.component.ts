@@ -4,7 +4,11 @@ import { Component, OnInit } from '@angular/core';
   // tslint:disable-next-line:component-selector
   selector: './app-danger-message',
   templateUrl: './danger-message.component.html',
-  styleUrls: ['./danger-message.component.css']
+  styles: [`
+    h2{
+      color: green;
+    }
+  `]
 })
 export class DangerMessageComponent implements OnInit {
 
