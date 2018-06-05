@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-warning-message',
+  // tslint:disable-next-line:component-selector
+  selector: 'warning-message',
   template: `
     <h2> warning message </h2>
   `,
